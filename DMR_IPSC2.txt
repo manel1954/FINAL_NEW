@@ -1,4 +1,4 @@
-Elige_Ipsc2 x x
+Ipsc2 x x
 IPSC2-EA4MASTER      4374     StartRef=4374;RelinkTime=15;UserLink=1;
 IPSC2-EA-Hotspot     4370     StartRef=4370;RelinkTime=15;UserLink=1;
 TS2_1=21465    21465    StartRef=4000;RelinkTime=15;UserLink=1;TS2_1=21465
