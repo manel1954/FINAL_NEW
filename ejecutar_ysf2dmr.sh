@@ -12,7 +12,7 @@ sed -i "89c $puerto" /home/pi/status.ini
 
 cd /home/pi/YSF2DMR
 
-xterm -geometry 87x7+1287+905 -bg black -fg orange -fa 'serift' -fs 9x -T YSF2DMR -e sudo ./YSF2DMR YSF2DMR.ini &
+xterm -geometry 87x8+1287+905 -bg black -fg orange -fa 'serift' -fs 9x -T YSF2DMR -e sudo ./YSF2DMR YSF2DMR.ini &
 
 sleep 2
 
