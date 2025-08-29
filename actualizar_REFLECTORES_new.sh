@@ -18,8 +18,7 @@ MARRON="\33[38;5;138m"
 			
 			#curl https://dvref.com/downloads/YSFHosts-resolved.txt > /home/pi/YSFClients/YSFGateway/YSFHosts.txt
 			
-			cd /home/pi/A108
-			cp YSFHosts.txt /home/pi/YSFClients/YSFGateway
+			cp /home/pi/A108/YSFHosts.txt /home/pi/YSFClients/YSFGateway/
 
 
 			sleep 3
