@@ -25,7 +25,7 @@ MARRON="\33[38;5;138m"
 			
 			clear
 			echo "${VERDE}*********************************"
-					echo "* ACTUALIZANDO REFLECTORES YSF xxxxx *"
+					echo "* ACTUALIZANDO REFLECTORES YSF  *"
 					echo "*********************************"
 			sleep 3
 			
