@@ -15,7 +15,7 @@ sed -i "4c Name[es_ES]=Cerrar SVXLINK" /home/pi/Desktop/Abrir_SVXLink.desktop
 sed -i "8c SVXLINK=ON" /home/pi/status.ini
 
 # sudo svxlink
-xterm -geometry 87x24+1287+479-bg black -fg yellow -fa ‘verdana’ -fs 9x -T SVXLINK -e sudo svxlink
+xterm -geometry 87x24+1287+479 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T SVXLINK -e sudo svxlink
 
 sed -i "6c Exec=sh ejecutar_svxlink_05.sh" /home/pi/Desktop/Abrir_SVXLink.desktop
 sed -i "7c Icon=/home/pi/pi/DMRPLUS_EDITOR.png" /home/pi/Desktop/Abrir_SVXLink.desktop
