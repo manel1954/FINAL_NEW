@@ -1,5 +1,5 @@
 REFLECTORES  YSF x x x       
-ES-ADER                     32027             ASSOCIACIO ADER             62.171.178.202  42000   000
+ES-ADER                     32027             ASSOCIACIO ADER             aderdigital.ddns.net  42000   000
 ES-ALBACETE                 21402             ALBACETE                    80.211.78.17    42375   000
 ES-EA-Distrito-3            21403             EA-Distrito-3               212.227.87.198  42003   000
 ES-EA-Distrito-5            21405             EA-Distrito-5               212.227.87.198  42005   000
