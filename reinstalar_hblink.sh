@@ -1341,23 +1341,16 @@ sleep 1
 
 sudo sed -i "74c background-image: url(http://$ip/hblink/images/fondo_hblink3.png);" /opt/HBmonitor/index_template.html
 
-# Suponiendo que la variable $ip ya está definida
-# Extraer la última parte de la IP
-last_part=$(echo "$ip" | awk -F. '{print $4}')
-
-# Contar la cantidad de dígitos
-length=${#last_part}
-
-# Crear la variable ip_buena con el formato adecuado
-if [ "$length" -eq 3 ]; then
-    ip_hblink="7$last_part"
-elif [ "$length" -eq 2 ]; then
-    ip_hblink="70$last_part"
-elif [ "$length" -eq 1 ]; then
-    ip_hblink="700$last_part"
-else
-    ip_hblink="ERROR"
-fi
+printf "${CIAN}"
+echo -e "\n\n\n"
+echo "=================================================================================="
+echo "              Introduce los 2 últimos digitos de tu ip              "
+echo "=================================================================================="
+printf "${GRIS}"
+read ip2
+printf "${GRIS}"
+sleep 1
+ip_hblink="70"$ip2
 
 # Mostrar el resultado
 echo "$ip_hblink"
