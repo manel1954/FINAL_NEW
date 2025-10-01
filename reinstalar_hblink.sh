@@ -1375,8 +1375,7 @@ sudo sed -i "313c \<a href=\"http://$ip/hblink/cambia_repeat.php\"\>CAMBIA REPEA
 sudo sed -i "314c \<a href=\"http://$ip/hblink/cambia_puentes.php\"\>CAMBIA PUENTES\</a\>" /opt/HBmonitor/index_template.html
 sudo sed -i "315c \<a href=\"http://$ip/hblink/restaurar_servicios.php\"\>RESTAURAR SERVICIOS\</a\>" /opt/HBmonitor/index_template.html
 
-
-
+sudo sed -i "188c <a href="http://192.168.1.111:7111" target="_blank" /var/www/html/panales_virtuales_nextion/panel_control.php
 
 sudo sed -i "316c \<a href=\"http://$ip/panel_control_experimental_v106/index.php\"\>PANEL DE CONTROL\</a>" /opt/HBmonitor/index_template.html
 
